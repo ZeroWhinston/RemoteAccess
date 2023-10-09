@@ -38,4 +38,6 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Пользователь</roles>
 </mdclass:Configuration>
