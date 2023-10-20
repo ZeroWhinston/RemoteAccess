@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d063c425-f06e-46cd-af06-54e6d1c8657a">
+  <producedTypes>
+    <objectType typeId="c5b42555-a92e-4750-9483-a3c8dd40263e" valueTypeId="5b935960-4e59-45e8-934e-99943b1ef3e0"/>
+    <refType typeId="37cba2d6-0e22-4492-a126-0d4461a33f56" valueTypeId="6ad9f08b-6537-440f-acb5-717664a53217"/>
+    <selectionType typeId="de5dfde3-df8d-4591-a451-a5a18444a670" valueTypeId="ccf7b640-5794-4e08-a348-78eaf4cce8b5"/>
+    <listType typeId="b1dd0329-6023-4aa5-98d6-2d0a4ab26e3d" valueTypeId="cee7c155-1831-4890-9ecc-8d15f16a9cc0"/>
+    <managerType typeId="02b50b1c-1645-417e-9d81-840a78f12b85" valueTypeId="6783e1e7-e396-4c90-8b45-922e733bf1b6"/>
+  </producedTypes>
+  <name>ПрограмноеПродукты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Програмное продукты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПрограмноеПродукты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПрограмноеПродукты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПрограмноеПродукты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПрограмноеПродукты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="bc39ce2e-ffbd-4823-ac30-c7972f10bb0b">
+    <name>ИспользоватьВремяДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать время действия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cb97a8d-3a95-4430-819e-a55e45b3851d">
+    <name>ИспользоватьЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать лицензии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5789eb34-c221-46a3-83e5-807e51bf430f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97207c7a-1de3-4c01-9dcb-5f78d948b0c2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

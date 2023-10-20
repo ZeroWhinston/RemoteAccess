@@ -40,4 +40,7 @@
   </languages>
   <roles>Role.Администратор</roles>
   <roles>Role.Пользователь</roles>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.ПрограмноеПродукты</catalogs>
+  <catalogs>Catalog.Точки</catalogs>
 </mdclass:Configuration>
